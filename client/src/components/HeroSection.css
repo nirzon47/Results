@@ -1,0 +1,43 @@
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #333436;
+    align-items: center;
+
+    
+}
+
+.hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.hero-btns {
+    margin-top: 32px;
+}
+
+.hero-btns .btn {
+    margin: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1 {
+        text-align: center;
+        align-items: center;
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        text-align: center;
+        align-items: center;
+        font-size: 50px;
+        margin-top: -100px;
+    }
+}
